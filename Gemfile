@@ -28,3 +28,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
+# Allow use of remote themes
+gem "jekyll-remote-theme"
+gem "jekyll-include-cache"
+gem 'faraday', '~> 0.17.3'

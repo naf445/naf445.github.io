@@ -19,18 +19,36 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Bridge the Gap 
-email: NathanAriFranklin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Github pages version of BtG 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/general/Logos/Round3/icon_small.jpg
+  
+owner:
+    email: NathanAriFranklin@gmail.com
+
+menu:
+  - title: 'Home'
+    url: '/'
+  - title: 'About'
+    url: '/about'
+  - title: 'Contact'
+    url: '/contact'
+  - title: 'Posts'
+    url: '/posts'
+  - title: 'Recommendations'
+    url: '/recs'
+
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rednathan25 
 github_username: naf445 
-
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: aron-bordin/neo-hpstr-jekyll-theme 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme 
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.

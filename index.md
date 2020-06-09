@@ -7,11 +7,9 @@
 layout: page 
 ---
 
-This is my homepage.
+This is my Homepage.
 
 This is my banner:
 ![banner](/assets/general/banner_custom.jpg)
 
-This is my icon:
-![icon](/assets/general/Logos/Round3/icon_small.jpg)
 
